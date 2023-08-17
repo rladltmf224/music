@@ -32,6 +32,7 @@ const WallPaper = styled("div")({
   },
   "&:after": {
     content: '""',
+
     width: "140%",
     height: "140%",
     position: "absolute",
@@ -90,7 +91,7 @@ export default function MusicPlayerSlider() {
   const lightIconColor =
     theme.palette.mode === "dark" ? "rgba(255,255,255,0.4)" : "rgba(0,0,0,0.4)";
   return (
-    <Box sx={{ width: "100%", overflow: "hidden" }}>
+    <Box sx={{ width: "100%", paddingTop: 20, overflow: "hidden" }}>
       <Widget>
         <Box sx={{ display: "flex", alignItems: "center" }}>
           <CoverImage>
@@ -105,13 +106,13 @@ export default function MusicPlayerSlider() {
               color="text.secondary"
               fontWeight={500}
             >
-              Jun Pulse
+              Yiseul Kim
             </Typography>
             <Typography noWrap>
               <b>퇴근할때 듣는 노래(퇴근&apos;언제해)</b>
             </Typography>
             <Typography noWrap letterSpacing={-0.25}>
-              Chilling Sunday &mdash; 우앵부앵뿌앵
+              Chilling Sunday &mdash; 맛있는훠궈
             </Typography>
           </Box>
         </Box>
