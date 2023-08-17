@@ -96,7 +96,7 @@ export default function MusicPlayerSlider() {
           <CoverImage>
             <img
               alt="can't win - Chilling Sunday"
-              src="/static/images/sliders/chilling-sunday.png"
+              src="images/chilling-sunday.png"
             />
           </CoverImage>
           <Box sx={{ ml: 1.5, minWidth: 0 }}>

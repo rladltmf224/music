@@ -9,6 +9,7 @@ import { IoMdArrowRoundBack } from "react-icons/io";
 import Button from "@mui/material/Button";
 import Slider from "@mui/material/Slider";
 import MusicPlayerSlider from "./player/MUI";
+import { Container, Row, Col } from "react-bootstrap";
 
 import "../App.css";
 
@@ -46,9 +47,16 @@ function PlayerBlock(props) {
     //   {/* <RangeBar /> */}
     //   <PlayButton />
     // </div>
-    <div className="PlayerBlock">
-      <MusicPlayerSlider></MusicPlayerSlider>
-    </div>
+
+    <Container fluid>
+      <Row>
+        <MusicPlayerSlider></MusicPlayerSlider>
+      </Row>
+    </Container>
+
+    // <div className="PlayerBlock">
+    //   <MusicPlayerSlider></MusicPlayerSlider>
+    // </div>
   );
 }
 
